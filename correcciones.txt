@@ -1,0 +1,15 @@
+Correcciones de las TS
+
+TS2: Cuantización
+
+* En la introducción se espera una explicación de qué trabajo vas a hacer. Copiar la consigna, 
+  no está mal, pero no muestra si entendés lo que vas a hacer. 
+
+* Es mejor para el desarrollo del ejercicio, cortar el código en segmentos que te permitan explicar lo que 
+  vas a hacer. Si ponés todo el código y más abajo explicás, estás desaprovechando la herramienta. El 
+  Jupyter Notebook, sirve para transmitir, comunicar, compartir los resultados.
+
+* En el gráfico del espectro de la señal (módulo de la FFT), la etiqueta del eje vertical dice amplitud; eso 
+  no es correcto
+
+* El histograma que muestra la estadística del ruido de cuantización, no tiene ninguna etiqueta en sus ejes.
