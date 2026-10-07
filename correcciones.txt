@@ -28,3 +28,10 @@ TS3: Desparramo espectral
 
 * En la conclusión falta una explicación, por lo menos general, de cómo el zero padding actúa en el dominio de
   la frecuencia (Convolución con la Sinc).
+
+TS4: Estimadores
+
+* Enorme trabajo Sebastián. 
+* Hay un error muy mínimo, en la sección 4 decís: "Estimador de Amplitud: Corresponde al valor de la magnitud 
+  de la FFT evaluado exactamente en la frecuencia estimada. En realidad en la frecuencia fija Omega_0. La 
+  estimada sería la que resulta de las estimaciones de Omega_1.
