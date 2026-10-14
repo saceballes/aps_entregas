@@ -3,29 +3,23 @@ Correcciones de las TS
 TS2: Cuantización
 
 * En la introducción se espera una explicación de qué trabajo vas a hacer. Copiar la consigna, 
-  no está mal, pero no muestra si entendés lo que vas a hacer. 
-
+  no está mal, pero no muestra si entendés lo que vas a hacer.
 * Es mejor para el desarrollo del ejercicio, cortar el código en segmentos que te permitan explicar lo que 
   vas a hacer. Si ponés todo el código y más abajo explicás, estás desaprovechando la herramienta. El 
   Jupyter Notebook, sirve para transmitir, comunicar, compartir los resultados.
-
 * En el gráfico del espectro de la señal (módulo de la FFT), la etiqueta del eje vertical dice amplitud; eso 
   no es correcto
-
 * El histograma que muestra la estadística del ruido de cuantización, no tiene ninguna etiqueta en sus ejes.
 
 TS3: Desparramo espectral
 
 * En la introducción se espera una explicación de qué trabajo vas a hacer. Copiar la consigna, 
   no está mal, pero no muestra si entendés lo que vas a hacer. 
-
 * En los gráficos del espectro, es más adecuado usar stem, porque el plot así como lo estás usando, une las
   muestras generando la falsa idea de que el espectro es continuo. Es verdad también que hay que usar el stem
   con criterio, tratando de que sea visualmente claro.
-
 * En el eje vertical del espectro, la etiqueta Potencia [dB] no es correcta. Teniendo en cuenta Parseval, la 
   potencia es la sumatoria de los valores en el espectro de Potencia. 
-
 * En la conclusión falta una explicación, por lo menos general, de cómo el zero padding actúa en el dominio de
   la frecuencia (Convolución con la Sinc).
 
@@ -35,3 +29,8 @@ TS4: Estimadores
 * Hay un error muy mínimo, en la sección 4 decís: "Estimador de Amplitud: Corresponde al valor de la magnitud 
   de la FFT evaluado exactamente en la frecuencia estimada. En realidad en la frecuencia fija Omega_0. La 
   estimada sería la que resulta de las estimaciones de Omega_1.
+
+TS5: Estimación Espectral
+
+* Falta un poco más de detalle de por qué elegiste Welch como método de estimación espectral.
+* Los gráficos de los espectros se pueden mejorar, tenías que trabajar un poco más con los parámetros del método.
