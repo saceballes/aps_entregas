@@ -34,3 +34,10 @@ TS5: Estimación Espectral
 
 * Falta un poco más de detalle de por qué elegiste Welch como método de estimación espectral.
 * Los gráficos de los espectros se pueden mejorar, tenías que trabajar un poco más con los parámetros del método.
+
+TS6: Filtros Pasivos
+
+* Los Bodes había que hacerlos a mano, la idea es que practiquen para el parcial.
+* En el Bode de módulo del primer filtro, falta indicar la caída en dB/dec. 
+* En el Bode del tercer filtro lo mismo. Indicar las pendientes de las asíntotas en el gráfico.
+* Falta una buena conclusión general que resuma el trabajo que hicieron.
