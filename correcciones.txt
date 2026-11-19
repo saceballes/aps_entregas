@@ -41,3 +41,18 @@ TS6: Filtros Pasivos
 * En el Bode de módulo del primer filtro, falta indicar la caída en dB/dec. 
 * En el Bode del tercer filtro lo mismo. Indicar las pendientes de las asíntotas en el gráfico.
 * Falta una buena conclusión general que resuma el trabajo que hicieron.
+
+TS7: Filtros Digitales
+
+* La definición de la plantilla tiene algunas inconsistencias. Si el ancho de banda estimado es de 19.47Hz, por qué la 
+  frecuencia de paso superior es de 37Hz? No está del todo mal, pero hay que argumentarlo mejor. 
+* Los FIR requerían más elaboración para cumplir con la plantilla.
+* EL FIR con Hamming no queda claro si cumple con la plantilla.
+* Tendrías que haber separado los plots para comparar por un lado los FIR y por otro los IIR para que quede más claro.
+* En los gráficos de las señales en el tiempo, también tendrías que haber separado las comparaciones, por un lado los 
+  IIR, por otro lado los FIR.
+* Medio que no tiene sentido comparar con filtros que no cumplen la plantilla. Con usar uno como ejemplo, por ahí era
+  suficiente.
+* En los plots de la señal ECG, por qué no poner el eje horizontal en unidades de segundos?
+* Además la etiqueta del eje vertical no es del todo correcta, ya que la amplitud en todo caso guarda relación con los
+  valores extremos. 
